@@ -3,7 +3,7 @@ cd /home/network/BestBites/dir/
 # Variables
 CONTAINER_NAME="HAMZA_1"
 IMAGE_NAME="fedora:latest"
-PORT="1003:80"   # Host:Container
+PORT="1004:80"   # Host:Container
 
 # Step 1: Stop the previous container if it is running
 if [ "$(docker ps -q -f name=$CONTAINER_NAME)" ]; then
