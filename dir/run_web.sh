@@ -1,7 +1,7 @@
 #!/bin/bash
-cd /home/network/hamza/TEST/BestBites/
+cd /home/network/BestBites/dir/
 # Variables
-CONTAINER_NAME="zigron_1"
+CONTAINER_NAME="HAMZA_1"
 IMAGE_NAME="fedora:latest"
 PORT="1001:80"   # Host:Container
 
